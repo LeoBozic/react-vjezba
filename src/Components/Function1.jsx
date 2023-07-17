@@ -1,9 +1,9 @@
 import React from "react";
 
-function Function1(props) {
+function Function1({ ime, godine }) {
   return (
     <div>
-      {props.ime} {props.godine}
+      {ime} {godine}
     </div>
   );
 }

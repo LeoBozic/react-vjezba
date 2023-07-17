@@ -2,9 +2,10 @@ import React, { Component } from "react";
 
 export class Class1 extends Component {
   render() {
+    const { ime, godine } = this.props;
     return (
       <div>
-        {this.props.ime} {this.props.godine}
+        {ime} {godine}
       </div>
     );
   }

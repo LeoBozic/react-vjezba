@@ -6,7 +6,7 @@ function Function2({ children, ime, godine }) {
       <div>
         {ime} {godine}
       </div>
-      <div>{children}</div>
+      {children}
     </>
   );
 }
